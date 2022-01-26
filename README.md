@@ -8,7 +8,9 @@ For this project, in addition to prioritizing a single-page archiecture, I reall
 And since these modeling sites tend to be very visual and media-content heavy, I also want to introduce some sort of minifying npm package. 
 
 ## TECHNOLOGY USED
+- Live Sass Compiler
 - ReactJs
+- Sass
 
 ## FEATURES  
 - Image Change onmouseover
