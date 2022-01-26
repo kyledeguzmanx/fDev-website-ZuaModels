@@ -10,6 +10,10 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 ## TECHNOLOGY USED
 - ReactJs
 
+## FEATURES  
+- Image Change onmouseover
+- Sinle Page Architecture
+- 
 ## SCREENSHOTS
 
 ## CREDITS 
