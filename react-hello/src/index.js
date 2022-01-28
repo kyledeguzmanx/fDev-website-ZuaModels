@@ -7,5 +7,14 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
-ReactDOM.render(<Navbar/>, document.getElementById("root"));
-ReactDOM.render(<Navbar/>, document.getElementById("root"));
+const App = () => {
+
+  return (
+    <React.Fragment>
+      <Navbar/>
+      <Footer/>
+    </React.Fragment>
+  )
+}
+
+ReactDOM.render(<App/>, document.getElementById("root"));
