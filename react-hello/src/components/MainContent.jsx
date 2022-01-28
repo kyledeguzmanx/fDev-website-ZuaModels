@@ -6,33 +6,36 @@ class MainContent extends Component {
         super(props);
     }
     state = { 
-        currentPage : "Home"
+        currentPage : "Men"
      }
     render() { 
-        const result = this.getHomepage();
+        
+        const result = this.getMainContent();
         return result;
     }
 
-    getHomepage(){
-        return(
-            <main>
-            <h1>Homepage</h1>
-            </main>
-        );
-    }
-    getMens(){
-        return(
-            <main>
-            <h1>Mens</h1>
-            </main>
-        );
-    }
-    getWoens(){
-        return(
-            <main>
-            <h1>Womens</h1>
-            </main>
-        );
+    getMainContent(){
+        if(this.state.currentPage == "Home"){
+            return(
+                <main>
+                <h1>Home</h1>
+                </main>
+            );
+        }
+        else if(this.state.currentPage == "Women"){
+            return(
+                <main>
+                <h1>Womenz</h1>
+                </main>
+            );
+        }
+        else if(this.state.currentPage == "Men"){
+            return(
+                <main>
+                <h1>Men 2</h1>
+                </main>
+            );
+        }
     }
 }
  
