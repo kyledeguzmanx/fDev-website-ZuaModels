@@ -13,13 +13,15 @@ class Navbar extends Component {
                 <div id="nav-logo">
                     <img src={this.state.imageURL}></img>
                 </div>
-                <div>
+                <div id="nav-link">
                     <ul>
-                        <li>Women</li>
-                        <li>Men</li>
-                        <li>Juniors</li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Juniors</a></li>
                     </ul>
-                    <a href=""> &#9776;</a>
+                    <div>
+                        <a href=""> &#9776;</a>
+                    </div>
                 </div>
             </nav>
          );
