@@ -66,6 +66,17 @@ main {
   margin-top: 100px;
 }
 
+#home-banner {
+  max-height: 566px;
+  max-width: 1198px;
+  margin: 0 auto;
+}
+
+#home-banner img {
+  height: 100%;
+  width: 100%;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
