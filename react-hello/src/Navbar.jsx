@@ -4,12 +4,14 @@ class Navbar extends Component {
     constructor(props) {
         super(props);
     }
-    state = {  }
+    state = { 
+        imageURL: "./logo.png"
+     }
     render() { 
         return ( 
             <nav>
                 <div id="nav-logo">
-                    <img></img>
+                    <img src={this.state.imageURL}></img>
                 </div>
                 <div>
                     <ul>
