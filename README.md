@@ -24,3 +24,5 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 
 ## CREDITS 
 - Pictures from Ford Models, IMG Models, and LA Models  
+- Campaign Pictures from Gucci, Calvin Klein, Vogue, et Louis Vuitton
+- [Banner Change from StackOverflow](https://stackoverflow.com/questions/54958440/how-to-make-the-background-image-change-every-x-seconds-in-react)
