@@ -42,6 +42,7 @@ nav{
 
 footer{
     text-align: center;
+    font-size: 14px;
     img{
         height: 200px;
         display: block;
@@ -53,5 +54,14 @@ footer{
     }
     a:hover{
         text-decoration: underline;
+    }
+    div{
+        margin-top: 14px;
+        img{
+            width: 24px;
+            height: auto;
+            display: inline;
+            padding-right: 16px;
+        }
     }
 }

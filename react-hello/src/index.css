@@ -63,6 +63,7 @@ nav #nav-link div {
 
 footer {
   text-align: center;
+  font-size: 14px;
 }
 
 footer img {
@@ -78,5 +79,16 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+footer div {
+  margin-top: 14px;
+}
+
+footer div img {
+  width: 24px;
+  height: auto;
+  display: inline;
+  padding-right: 16px;
 }
 /*# sourceMappingURL=index.css.map */
