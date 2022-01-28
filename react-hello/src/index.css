@@ -43,6 +43,7 @@ nav #nav-link {
 
 nav #nav-link ul {
   list-style: none;
+  font-size: 20px;
 }
 
 nav #nav-link li {
@@ -54,5 +55,9 @@ nav #nav-link a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+}
+
+nav #nav-link div {
+  font-size: 30px;
 }
 /*# sourceMappingURL=index.css.map */
