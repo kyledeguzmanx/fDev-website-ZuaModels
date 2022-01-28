@@ -1,1 +1,55 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+html, body {
+  margin: 0;
+}
+
+nav {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav #nav-logo img {
+  height: 100%;
+  margin-left: 2vw;
+}
+
+nav #nav-link {
+  margin-right: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav #nav-link ul {
+  list-style: none;
+}
+
+nav #nav-link li {
+  display: inline;
+  padding-right: 2vw;
+}
+
+nav #nav-link a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=index.css.map */
