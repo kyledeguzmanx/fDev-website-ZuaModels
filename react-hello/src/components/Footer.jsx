@@ -4,11 +4,13 @@ class Footer extends Component {
     constructor(props) {
         super(props);
     }
-    state = {  }
+    state = { 
+        imageURL: "./images/logo.png"
+     }
     render() { 
         return ( 
             <footer>
-                
+                <img src={this.state.imageURL}/>
             </footer>
          );
     }
