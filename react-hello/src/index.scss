@@ -7,6 +7,9 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    width: 100vw;
     
     #nav-logo img{
         height: 100%;
