@@ -18,6 +18,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100vw;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 nav #nav-logo img {
@@ -64,12 +65,18 @@ nav #nav-link div {
 
 main {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #home-banner {
   max-height: 566px;
   max-width: 1198px;
   margin: 0 auto;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
 }
 
 #home-banner img {

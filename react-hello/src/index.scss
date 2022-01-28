@@ -11,6 +11,7 @@ nav{
     position: fixed;
     top:0;
     width: 100vw;
+    background-color: rgba($color: #ffffff, $alpha: 0.8);
     
     #nav-logo img{
         height: 100%;
@@ -42,11 +43,15 @@ nav{
 }
 main{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 #home-banner{
     max-height: 566px;
     max-width: 1198px;
     margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    place-items: center;
     img{
         height: 100%;
         width: 100%;
