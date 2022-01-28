@@ -9,6 +9,7 @@ nav{
     justify-content: space-between;
     overflow: hidden;
     position: fixed;
+    top:0;
     width: 100vw;
     
     #nav-logo img{
@@ -39,7 +40,9 @@ nav{
         }
     }
 }
-
+main{
+    margin-top: 100px;
+}
 footer{
     text-align: center;
     font-size: 14px;

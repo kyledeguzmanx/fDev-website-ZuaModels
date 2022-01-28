@@ -16,6 +16,7 @@ nav {
           justify-content: space-between;
   overflow: hidden;
   position: fixed;
+  top: 0;
   width: 100vw;
 }
 
@@ -59,6 +60,10 @@ nav #nav-link a {
 
 nav #nav-link div {
   font-size: 30px;
+}
+
+main {
+  margin-top: 100px;
 }
 
 footer {
