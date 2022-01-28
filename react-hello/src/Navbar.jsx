@@ -5,7 +5,7 @@ class Navbar extends Component {
         super(props);
     }
     state = { 
-        imageURL: "./logo.png"
+        imageURL: "/logo.png"
      }
     render() { 
         return ( 
