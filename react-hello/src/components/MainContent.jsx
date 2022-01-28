@@ -6,8 +6,16 @@ class MainContent extends Component {
         super(props);
 
         const bannerPath = [
+            "./images/Homepage/item8.jpg",
             "./images/Homepage/Fenty.jpg",
-            "./images/Homepage/Dior.jpg"
+            "./images/Homepage/Dior2.jpg",
+            "./images/Homepage/Dior.jpg",
+            "./images/Homepage/item4.jpg",
+            "./images/Homepage/item5.jpg",
+            "./images/Homepage/item6.jpg",
+            "./images/Homepage/item7.jpg",
+            "./images/Homepage/givency.jpg"
+            
         ]
         this.state = { 
             bannerPath,
@@ -48,7 +56,6 @@ class MainContent extends Component {
         if(this.state.currentPage == "Home"){
             return(
                 <main>
-                <h1>Home</h1>
                 <div id="home-banner">
                     <img src={this.state.bannerPath[this.state.bannerImgPath]}></img>
                 </div>
