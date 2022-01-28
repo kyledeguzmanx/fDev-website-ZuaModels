@@ -4,7 +4,7 @@ import './index.css';
 
 
 
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 
 
 ReactDOM.render(<Navbar/>, document.getElementById("root"));
