@@ -6,7 +6,8 @@ class MainContent extends Component {
         super(props);
     }
     state = { 
-        currentPage : "Men"
+        currentPage : "Home",
+        bannerImgPath: "./images/Homepage/Fenty.jpg"
      }
     render() { 
         
@@ -19,6 +20,9 @@ class MainContent extends Component {
             return(
                 <main>
                 <h1>Home</h1>
+                <div id="home-banner">
+                    <img src={this.state.bannerImgPath}></img>
+                </div>
                 </main>
             );
         }
