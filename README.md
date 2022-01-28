@@ -19,6 +19,8 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 - Sinle Page Architecture
 - 
 ## SCREENSHOTS
+### DAY 1
+![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen1.png)
 
 ## CREDITS 
 - Pictures from Ford Models, IMG Models, and LA Models  
