@@ -5,7 +5,9 @@ class MainContent extends Component {
     constructor(props) {
         super(props);
     }
-    state = {  }
+    state = { 
+        currentPage : "Home"
+     }
     render() { 
         const result = this.getHomepage();
         return result;
