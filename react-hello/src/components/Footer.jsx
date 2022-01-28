@@ -18,8 +18,11 @@ class Footer extends Component {
                 <div>
                     <img src={this.state.instagramIconPath} alt="" />
                     <img src={this.state.facebookIconPath} alt="" />
-                    <img src={this.state.twitterIconPath} alt="" />
+                    <img src={this.state.twitterIconPath} alt="" style={{paddingRight:0}} />
                 </div>
+                <a></a>
+                <p>FOR BOOKING INQUIRIES : INFO@ZUAMODELS.COM</p>
+                <p>&copy; 2022 · ZUA MODEL MANAGEMENT</p>
             </footer>
          );
     }
