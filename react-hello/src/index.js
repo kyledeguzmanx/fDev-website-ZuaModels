@@ -6,7 +6,7 @@ import './index.css';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import MainContent from './components/MainContent';
+import Home from './components/Home';
 
 
 
@@ -15,7 +15,7 @@ const App = () => {
   return (
     <React.Fragment>
       <Navbar/>
-      <MainContent/>
+      <Home/>
       <Footer/>
     </React.Fragment>
   )
