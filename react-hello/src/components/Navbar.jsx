@@ -12,7 +12,7 @@ class Navbar extends Component {
         return ( 
             <nav>
                 <div id="nav-logo">
-                    <img src={this.state.imageURL}></img>
+                    <Link to="/"><img src={this.state.imageURL}></img></Link>
                 </div>
                 <div id="nav-link">
                     <ul>
