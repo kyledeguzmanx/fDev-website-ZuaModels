@@ -11,7 +11,8 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
-
+import Men from './components/Men';
+import Women from './components/Women';
 
 
 const App = () => {
@@ -23,6 +24,12 @@ const App = () => {
           <Switch>
               <Route exact path="/">
                 <Home/>
+              </Route>
+              <Route exact path="/Men">
+                <Men/>
+              </Route>
+              <Route exact path="/Women">
+                <Women/>
               </Route>
           </Switch>
         <Footer/>
