@@ -6,7 +6,11 @@ class Men extends Component {
     }
     state = {  }
     render() { 
-        return (  );
+        return (
+            <main>
+                <h1>MEN</h1>
+            </main>
+          );
     }
 }
  

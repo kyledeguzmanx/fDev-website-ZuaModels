@@ -6,7 +6,11 @@ class Women extends Component {
     }
     state = {  }
     render() { 
-        return (  );
+        return (
+        <main>
+            <h1>WOMEN</h1>
+        </main>
+          );
     }
 }
  
