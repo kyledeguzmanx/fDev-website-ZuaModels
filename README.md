@@ -11,7 +11,7 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 - Adobe Creative Cloud Express: [Transparent Background](https://www.adobe.com/express/feature/image/transparent-background)   
 - Canva  
 - Live Sass Compiler  
-- ReactJs  
+- ReactJs  (create-react-app & react-router-dom)
 - Sass  
 
 ## FEATURES  
