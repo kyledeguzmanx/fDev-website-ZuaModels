@@ -46,12 +46,44 @@ class Men extends Component {
                 imgShoot: "./images/Models/NMalik-MS.jpg"
             }
         ]
+
+        this.state = {
+            models
+        }
     }
-    state = {  }
+
     render() { 
         return (
             <main>
-                 <h1>MEN</h1>
+                 <div class="contain-two">
+                     <div>
+                        <img src={this.state.models[0].imgProfile}></img>
+                     </div>
+                     <div>
+                        <img src={this.state.models[1].imgProfile}></img>
+                     </div>
+                 </div>
+                 <div class="contain-two">
+                     <div>
+                        <img src={this.state.models[2].imgProfile}></img>
+                     </div>
+                     <div>
+                        <img src={this.state.models[3].imgProfile}></img>
+                     </div>
+                 </div>
+                 <div class="contain-two">
+                     <div>
+                        <img src={this.state.models[4].imgProfile}></img>
+                     </div>
+                     <div>
+                        <img src={this.state.models[5].imgProfile}></img>
+                     </div>
+                 </div>
+                 <div class="contain-two">
+                     <div>
+                        <img src={this.state.models[6].imgProfile}></img>
+                     </div>
+                 </div>
             </main>
           );
     }
