@@ -16,8 +16,8 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 
 ## FEATURES  
 - Image Change onmouseover
-- Sinle Page Architecture
-- 
+- Single Page Architecture
+- Home Page's Changing Banner
 ## SCREENSHOTS
 ### DAY 1
 ![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen1.png)
