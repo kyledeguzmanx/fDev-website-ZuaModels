@@ -6,6 +6,11 @@ class Men extends Component {
 
         const models = [
             {
+                name: "Amerigo Valenti",
+                imgProfile:  "./images/Models/AValenti-PFP.jpg",
+                imgShoot:  "./images/Models/AValenti-MS.jpg"
+            },
+            {
                 name: "Anwar Hadid",
                 imgProfile:  "./images/Models/AHadid-PFP.jpg",
                 imgShoot:  "./images/Models/AHadid-MS.jpg"
@@ -32,13 +37,38 @@ class Men extends Component {
             },
             {
                 name: "Joe Rodonis",
-                imgProfile: "./images/Models/JRodonis--PFP.jpg",
-                imgShoot: "./images/Models/JRodonis--MS.jpg"
+                imgProfile: "./images/Models/JRodonis-PFP.jpg",
+                imgShoot: "./images/Models/JRodonis-MS.jpg"
             },
             {
                 name: "Kohei",
                 imgProfile: "./images/Models/Kohei-PFP.jpg",
                 imgShoot: "./images/Models/Kohei-MS.jpg"
+            },
+            {
+                name: "Niyo Malik",
+                imgProfile: "./images/Models/NMalik-PFP.jpg",
+                imgShoot: "./images/Models/NMalik-MS.jpg"
+            },
+            {
+                name: "Oli Lacey",
+                imgProfile: "./images/Models/OLacey-PFP.png",
+                imgShoot: "./images/Models/OLacey-MS.jpg"
+            },
+            {
+                name: "Peter Dupont",
+                imgProfile: "./images/Models/PDupont-PFP.jpg",
+                imgShoot: "./images/Models/PDupont-MS.jpg"
+            },
+            {
+                name: "Tyson Ballou",
+                imgProfile: "./images/Models/TBallou-PFP.jpg",
+                imgShoot: "./images/Models/TBallou-MS.jpg"
+            },
+            {
+                name: "Niyo Malik",
+                imgProfile: "./images/Models/NMalik-PFP.jpg",
+                imgShoot: "./images/Models/NMalik-MS.jpg"
             },
             {
                 name: "Niyo Malik",
