@@ -56,31 +56,31 @@ class Men extends Component {
         return (
             <main>
                  <div class="contain-two">
-                     <div>
+                     <div class="img-container">
                         <img src={this.state.models[0].imgProfile}></img>
                      </div>
-                     <div>
+                     <div class="img-container">
                         <img src={this.state.models[1].imgProfile}></img>
                      </div>
                  </div>
                  <div class="contain-two">
-                     <div>
+                     <div class="img-container">
                         <img src={this.state.models[2].imgProfile}></img>
                      </div>
-                     <div>
+                     <div class="img-container">
                         <img src={this.state.models[3].imgProfile}></img>
                      </div>
                  </div>
                  <div class="contain-two">
-                     <div>
+                     <div class="img-container">
                         <img src={this.state.models[4].imgProfile}></img>
                      </div>
-                     <div>
+                     <div class="img-container">
                         <img src={this.state.models[5].imgProfile}></img>
                      </div>
                  </div>
                  <div class="contain-two">
-                     <div>
+                     <div class="img-container">
                         <img src={this.state.models[6].imgProfile}></img>
                      </div>
                  </div>
