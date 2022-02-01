@@ -109,11 +109,16 @@ main {
           flex-direction: row;
   place-items: center;
   overflow: hidden;
+  padding-right: 44px;
 }
 
 .contain-two .img-container img {
   width: 100%;
   height: 100%;
+}
+
+.contain-two .img-container-last {
+  padding-right: 0;
 }
 
 .contain-four {
@@ -124,7 +129,9 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer {
