@@ -67,8 +67,8 @@ class Men extends Component {
             },
             {
                 name: "Victor Norlander",
-                imgProfile: "./images/Models/NMalik-PFP.jpg",
-                imgShoot: "./images/Models/NMalik-MS.jpg"
+                imgProfile: "./images/Models/VNorlander-PFP.jpg",
+                imgShoot: "./images/Models/VNorlander-MS.jpg"
             },
             {
                 name: "Wang Chen Ming",
@@ -131,6 +131,14 @@ class Men extends Component {
                      </div>
                      <div class="img-container">
                         <img src={this.state.models[11].imgProfile}></img>
+                     </div>
+                 </div>
+                 <div class="contain-two">
+                     <div class="img-container">
+                        <img src={this.state.models[12].imgProfile}></img>
+                     </div>
+                     <div class="img-container">
+                        <img src={this.state.models[13].imgProfile}></img>
                      </div>
                  </div>
             </main>
