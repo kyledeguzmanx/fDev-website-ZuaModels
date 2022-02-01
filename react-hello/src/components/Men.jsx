@@ -98,7 +98,7 @@ class Men extends Component {
                         <div className="img-container">
                             <img src={this.state.models[2].imgProfile}></img>
                         </div>
-                        <div className="img-container">
+                        <div className="img-container img-container-last">
                             <img src={this.state.models[3].imgProfile}></img>
                         </div>
                     </div>
@@ -116,7 +116,7 @@ class Men extends Component {
                             <div className="img-container">
                                 <img src={this.state.models[6].imgProfile}></img>
                             </div>
-                            <div className="img-container">
+                            <div className="img-container img-container-last">
                                 <img src={this.state.models[7].imgProfile}></img>
                             </div>
                       </div>
@@ -134,7 +134,7 @@ class Men extends Component {
                         <div className="img-container">
                             <img src={this.state.models[10].imgProfile}></img>
                         </div>
-                        <div class="img-container">
+                        <div class="img-container img-container-last">
                             <img src={this.state.models[11].imgProfile}></img>
                         </div>
                     </div>
