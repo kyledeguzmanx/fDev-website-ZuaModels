@@ -63,17 +63,17 @@ class Men extends Component {
             {
                 name: "Tyson Ballou",
                 imgProfile: "./images/Models/TBallou-PFP.jpg",
-                imgShoot: "./images/Models/TBallou-MS.jpg"
+                imgShoot: "./images/Models/TBallou-MS.jpeg"
             },
             {
-                name: "Niyo Malik",
+                name: "Victor Norlander",
                 imgProfile: "./images/Models/NMalik-PFP.jpg",
                 imgShoot: "./images/Models/NMalik-MS.jpg"
             },
             {
-                name: "Niyo Malik",
-                imgProfile: "./images/Models/NMalik-PFP.jpg",
-                imgShoot: "./images/Models/NMalik-MS.jpg"
+                name: "Wang Chen Ming",
+                imgProfile: "./images/Models/WMing-PFP.jpg",
+                imgShoot: "./images/Models/WMing-MS.jpg"
             }
         ]
 
