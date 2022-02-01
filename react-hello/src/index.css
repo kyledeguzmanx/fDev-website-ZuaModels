@@ -116,6 +116,17 @@ main {
   height: 100%;
 }
 
+.contain-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: red;
+}
+
 footer {
   text-align: center;
   font-size: 14px;

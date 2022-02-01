@@ -74,7 +74,11 @@ main{
             height: 100%;
         }
     }
-
+}
+.contain-four{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
 }
 
 footer{

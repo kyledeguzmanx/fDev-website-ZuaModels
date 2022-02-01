@@ -85,59 +85,65 @@ class Men extends Component {
     render() { 
         return (
             <main>
-                 <div class="contain-two">
-                     <div class="img-container">
-                        <img src={this.state.models[0].imgProfile}></img>
-                     </div>
-                     <div class="img-container">
-                        <img src={this.state.models[1].imgProfile}></img>
-                     </div>
+                 <div className="contain-four">
+                    <div className="contain-two">
+                        <div className="img-container">
+                            <img src={this.state.models[0].imgProfile}></img>
+                        </div>
+                        <div className="img-container">
+                            <img src={this.state.models[1].imgProfile}></img>
+                        </div>
+                    </div>
+                    <div className="contain-two">
+                        <div className="img-container">
+                            <img src={this.state.models[2].imgProfile}></img>
+                        </div>
+                        <div className="img-container">
+                            <img src={this.state.models[3].imgProfile}></img>
+                        </div>
+                    </div>
                  </div>
-                 <div class="contain-two">
-                     <div class="img-container">
-                        <img src={this.state.models[2].imgProfile}></img>
-                     </div>
-                     <div class="img-container">
-                        <img src={this.state.models[3].imgProfile}></img>
-                     </div>
+                 <div className="contain-four"> 
+                    <div className="contain-two">
+                            <div className="img-container">
+                                <img src={this.state.models[4].imgProfile}></img>
+                            </div>
+                            <div className="img-container">
+                                <img src={this.state.models[5].imgProfile}></img>
+                            </div>
+                        </div>
+                        <div className="contain-two">
+                            <div className="img-container">
+                                <img src={this.state.models[6].imgProfile}></img>
+                            </div>
+                            <div className="img-container">
+                                <img src={this.state.models[7].imgProfile}></img>
+                            </div>
+                      </div>
                  </div>
-                 <div class="contain-two">
-                     <div class="img-container">
-                        <img src={this.state.models[4].imgProfile}></img>
-                     </div>
-                     <div class="img-container">
-                        <img src={this.state.models[5].imgProfile}></img>
-                     </div>
+                 <div className="contain-four">
+                    <div className="contain-two">
+                        <div className="img-container">
+                            <img src={this.state.models[8].imgProfile}></img>
+                        </div>
+                        <div className="img-container">
+                            <img src={this.state.models[9].imgProfile}></img>
+                        </div>
+                    </div>
+                    <div className="contain-two">
+                        <div className="img-container">
+                            <img src={this.state.models[10].imgProfile}></img>
+                        </div>
+                        <div class="img-container">
+                            <img src={this.state.models[11].imgProfile}></img>
+                        </div>
+                    </div>
                  </div>
-                 <div class="contain-two">
-                     <div class="img-container">
-                        <img src={this.state.models[6].imgProfile}></img>
-                     </div>
-                     <div class="img-container">
-                        <img src={this.state.models[7].imgProfile}></img>
-                     </div>
-                 </div>
-                 <div class="contain-two">
-                     <div class="img-container">
-                        <img src={this.state.models[8].imgProfile}></img>
-                     </div>
-                     <div class="img-container">
-                        <img src={this.state.models[9].imgProfile}></img>
-                     </div>
-                 </div>
-                 <div class="contain-two">
-                     <div class="img-container">
-                        <img src={this.state.models[10].imgProfile}></img>
-                     </div>
-                     <div class="img-container">
-                        <img src={this.state.models[11].imgProfile}></img>
-                     </div>
-                 </div>
-                 <div class="contain-two">
-                     <div class="img-container">
+                 <div className="contain-two">
+                     <div className="img-container">
                         <img src={this.state.models[12].imgProfile}></img>
                      </div>
-                     <div class="img-container">
+                     <div className="img-container">
                         <img src={this.state.models[13].imgProfile}></img>
                      </div>
                  </div>
