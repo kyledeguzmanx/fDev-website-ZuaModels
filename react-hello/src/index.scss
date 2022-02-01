@@ -59,6 +59,23 @@ main{
         transition: all .3s ease-in-out;
     }
 }
+.contain-two{
+    display: flex;
+    flex-direction: row;
+    .img-container{
+        height: 367px;
+        width: 279px;
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        overflow: hidden;
+        img{
+            width: auto;
+            height: 100%;
+        }
+    }
+
+}
 
 footer{
     text-align: center;

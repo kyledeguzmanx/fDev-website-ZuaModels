@@ -87,6 +87,35 @@ main {
   transition: all .3s ease-in-out;
 }
 
+.contain-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contain-two .img-container {
+  height: 367px;
+  width: 279px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  place-items: center;
+  overflow: hidden;
+}
+
+.contain-two .img-container img {
+  width: auto;
+  height: 100%;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
