@@ -13,10 +13,11 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 - Google Fonts API
 - Live Sass Compiler  
 - ReactJs  (create-react-app & react-router-dom)
+- react-router-dom package
 - Sass  
 
 ## FEATURES  
-- Image Change onmouseover   
+- Image Change onmouseover & onmouseout  
 - Single Page Architecture  
 - Home Page's Changing Banner (every 3-4 seconds)  
 - Fixed & Transparent navigation bar  
@@ -32,6 +33,7 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 ## CREDITS 
 - [Banner Change from StackOverflow](https://stackoverflow.com/questions/54958440/how-to-make-the-background-image-change-every-x-seconds-in-react)    
 - Campaign Pictures from Gucci, Calvin Klein, Vogue, et Louis Vuitton  
+- Change Image [onMouseOver with React](https://stackoverflow.com/questions/48703510/change-image-on-hover-in-jsx)
 - Google Fonts API for Quicksand Font  
 - [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)
 - Pictures from Ford Models, IMG Models, and LA Models    
