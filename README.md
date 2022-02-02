@@ -16,9 +16,11 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 - Sass  
 
 ## FEATURES  
-- Image Change onmouseover
-- Single Page Architecture
-- Home Page's Changing Banner
+- Image Change onmouseover   
+- Single Page Architecture  
+- Home Page's Changing Banner (every 3-4 seconds)  
+- Fixed & Transparent navigation bar  
+- Responsive Design (mobile friendly)
 ## SCREENSHOTS
 ![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen1.png)
 ![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen2.jpg)
