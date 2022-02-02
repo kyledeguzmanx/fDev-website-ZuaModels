@@ -59,6 +59,7 @@ main{
         transition: all .3s ease-in-out;
     }
 }
+/*
 .contain-two{
     display: flex;
     flex-direction: row;
@@ -83,7 +84,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+}*/
 #main-gallery{
     text-align: center;
     padding-right: -10px;
@@ -103,6 +104,7 @@ main{
     display:inline-block;
     p{
         text-align: left;
+        text-transform: uppercase;
     }
 }
 
