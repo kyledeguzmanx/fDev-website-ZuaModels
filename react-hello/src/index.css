@@ -134,6 +134,34 @@ main {
           justify-content: center;
 }
 
+#main-gallery {
+  text-align: center;
+  padding-right: -10px;
+}
+
+.img-container {
+  height: 367px;
+  width: 279px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding-right: 44px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-container {
+  display: inline-block;
+}
+
+.card-container p {
+  text-align: left;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
