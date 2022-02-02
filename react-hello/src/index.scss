@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 html,body{
     margin:0;
 }
@@ -105,6 +106,10 @@ main{
     p{
         text-align: left;
         text-transform: uppercase;
+        font-family: 'Quicksand', sans-serif;
+        padding-bottom: 40px;
+        color: #838080;
+        font-size: 14px;
     }
 }
 
