@@ -162,13 +162,13 @@ class Men extends Component {
                             <div className="img-container">
                                 <img src={this.state.models[12].imgProfile}></img>
                             </div>
-                            <p>{this.state.models[8].name}</p>
+                            <p>{this.state.models[12].name}</p>
                         </div>
                         <div className='card-container'> 
                             <div className="img-container">
                                 <img src={this.state.models[13].imgProfile}></img>
                             </div>
-                            <p>{this.state.models[8].name}</p>
+                            <p>{this.state.models[13].name}</p>
                         </div>
                 </section>
             </main>
