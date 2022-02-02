@@ -10,6 +10,7 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 ## TECHNOLOGY USED
 - Adobe Creative Cloud Express: [Transparent Background](https://www.adobe.com/express/feature/image/transparent-background)   
 - Canva  
+- Google Fonts API
 - Live Sass Compiler  
 - ReactJs  (create-react-app & react-router-dom)
 - Sass  
@@ -19,10 +20,16 @@ And since these modeling sites tend to be very visual and media-content heavy, I
 - Single Page Architecture
 - Home Page's Changing Banner
 ## SCREENSHOTS
-### DAY 1
 ![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen1.png)
+![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen2.jpg)
+![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen3.jpg)
+![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen4.jpg)
+![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen5.jpg)
+![](https://github.com/kyledeguzmanx/fDev-website-ZuaModels/blob/master/images/Screen6.jpg)
 
 ## CREDITS 
-- Pictures from Ford Models, IMG Models, and LA Models  
-- Campaign Pictures from Gucci, Calvin Klein, Vogue, et Louis Vuitton
-- [Banner Change from StackOverflow](https://stackoverflow.com/questions/54958440/how-to-make-the-background-image-change-every-x-seconds-in-react)
+- [Banner Change from StackOverflow](https://stackoverflow.com/questions/54958440/how-to-make-the-background-image-change-every-x-seconds-in-react)    
+- Campaign Pictures from Gucci, Calvin Klein, Vogue, et Louis Vuitton  
+- Google Fonts API for Quicksand Font  
+- [HTML Color Codes](https://htmlcolorcodes.com/color-picker/)
+- Pictures from Ford Models, IMG Models, and LA Models    
