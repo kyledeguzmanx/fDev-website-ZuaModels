@@ -87,20 +87,34 @@ class Men extends Component {
             <main>
                  <div className="contain-four">
                     <div className="contain-two">
-                        <div className="img-container">
-                            <img src={this.state.models[0].imgProfile}></img>
+                        <div className='card-container'>
+                            <div className="img-container">
+                                <img src={this.state.models[0].imgProfile}></img>
+                            </div>
+                            <p>{this.state.models[0].name}</p>
                         </div>
-                        <div className="img-container">
-                            <img src={this.state.models[1].imgProfile}></img>
+                        <div className='card-container'>
+                            <div className="img-container">
+                                <img src={this.state.models[1].imgProfile}></img>
+                            </div>
+                            <p>{this.state.models[1].name}</p>
                         </div>
                     </div>
                     <div className="contain-two">
-                        <div className="img-container">
-                            <img src={this.state.models[2].imgProfile}></img>
+                        <div className='card-container'>
+                            <div className="img-container">
+                                <img src={this.state.models[2].imgProfile}></img>
+                            </div>
+                            <p>{this.state.models[2].name}</p>
                         </div>
-                        <div className="img-container img-container-last">
-                            <img src={this.state.models[3].imgProfile}></img>
+                        <div className='card-container'>
+                            <div className="img-container img-container-last">
+                                <img src={this.state.models[3].imgProfile}></img>
+                            </div>
+                            <p>{this.state.models[3].name}</p>
                         </div>
+                        
+                        
                     </div>
                  </div>
                  <div className="contain-four"> 
@@ -139,13 +153,15 @@ class Men extends Component {
                         </div>
                     </div>
                  </div>
-                 <div className="contain-two">
-                     <div className="img-container">
-                        <img src={this.state.models[12].imgProfile}></img>
-                     </div>
-                     <div className="img-container">
-                        <img src={this.state.models[13].imgProfile}></img>
-                     </div>
+                 <div className="contain-four">
+                    <div className="contain-two">
+                        <div className="img-container">
+                            <img src={this.state.models[12].imgProfile}></img>
+                        </div>
+                        <div className="img-container">
+                            <img src={this.state.models[13].imgProfile}></img>
+                        </div>
+                    </div>
                  </div>
             </main>
           );
