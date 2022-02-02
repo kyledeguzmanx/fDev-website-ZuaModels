@@ -113,27 +113,37 @@ class Men extends Component {
                             </div>
                             <p>{this.state.models[3].name}</p>
                         </div>
-                        
-                        
                     </div>
                  </div>
                  <div className="contain-four"> 
                     <div className="contain-two">
+                        <div className='card-container'>
                             <div className="img-container">
                                 <img src={this.state.models[4].imgProfile}></img>
                             </div>
+                            <p>{this.state.models[4].name}</p>
+                        </div>
+                        <div className='card-container'>
                             <div className="img-container">
                                 <img src={this.state.models[5].imgProfile}></img>
                             </div>
+                            <p>{this.state.models[5].name}</p>
                         </div>
-                        <div className="contain-two">
+                    </div>
+                    <div className="contain-two">
+                        <div className='card-container'>
                             <div className="img-container">
                                 <img src={this.state.models[6].imgProfile}></img>
                             </div>
+                            <p>{this.state.models[6].name}</p>
+                        </div>
+                        <div className='card-container'>
                             <div className="img-container img-container-last">
                                 <img src={this.state.models[7].imgProfile}></img>
                             </div>
-                      </div>
+                            <p>{this.state.models[7].name}</p>
+                        </div> 
+                    </div>
                  </div>
                  <div className="contain-four">
                     <div className="contain-two">
