@@ -95,7 +95,7 @@ class Women extends Component {
                 name: "kamila hansen",
                 imgProfile: "./images/Models/KHansen-PFP.jpg",
                 imgShoot: "./images/Models/KHansen-MS.jpg"
-            }
+            },
             {
                 name: "Kate Moss",
                 imgProfile: "./images/Models/KMoss-PFP.jpg",
