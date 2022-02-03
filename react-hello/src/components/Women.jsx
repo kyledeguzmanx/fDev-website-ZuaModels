@@ -85,6 +85,11 @@ class Women extends Component {
                 name: "Julia Hafstrom",
                 imgProfile: "./images/Models/JHafstrom-PFP.jpg",
                 imgShoot: "./images/Models/JHafstrom-MS.jpg"
+            },
+            {
+                name: "julia van os",
+                imgProfile: "./images/Models/JOs-PFP.jpg",
+                imgShoot: "./images/Models/JOs-MS.jpg"
             }
         ]
 
