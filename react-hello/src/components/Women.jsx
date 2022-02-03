@@ -187,6 +187,18 @@ class Women extends Component {
                             </div>
                             <p>{this.state.models[13].name}</p>
                         </div>
+                        <div className='card-container'> 
+                            <div className="img-container">
+                                <img src={this.state.models[14].imgProfile} onMouseOver={img => (img.currentTarget.src= this.state.models[14].imgShoot)} onMouseOut={img => (img.currentTarget.src= this.state.models[14].imgProfile)}></img>
+                            </div>
+                            <p>{this.state.models[14].name}</p>
+                        </div>
+                        <div className='card-container'> 
+                            <div className="img-container">
+                                <img src={this.state.models[15].imgProfile} onMouseOver={img => (img.currentTarget.src= this.state.models[15].imgShoot)} onMouseOut={img => (img.currentTarget.src= this.state.models[15].imgProfile)}></img>
+                            </div>
+                            <p>{this.state.models[15].name}</p>
+                        </div>
                 </section>
             </main>
           );
