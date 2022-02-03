@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Men from './components/Men';
 import Women from './components/Women';
-
+import Juniors from './components/Juniors';
 
 const App = () => {
 
@@ -30,6 +30,9 @@ const App = () => {
               </Route>
               <Route exact path="/Women">
                 <Women/>
+              </Route>
+              <Route exact path="/Women">
+                <Juniors/>
               </Route>
           </Switch>
         <Footer/>
