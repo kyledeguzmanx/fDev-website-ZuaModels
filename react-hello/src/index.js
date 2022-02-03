@@ -31,7 +31,7 @@ const App = () => {
               <Route exact path="/Women">
                 <Women/>
               </Route>
-              <Route exact path="/Women">
+              <Route exact path="/Juniors">
                 <Juniors/>
               </Route>
           </Switch>
