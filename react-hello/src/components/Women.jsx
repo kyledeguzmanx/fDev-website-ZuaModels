@@ -96,6 +96,16 @@ class Women extends Component {
                 imgProfile: "./images/Models/KHansen-PFP.jpg",
                 imgShoot: "./images/Models/KHansen-MS.jpg"
             }
+            {
+                name: "Kate Moss",
+                imgProfile: "./images/Models/KMoss-PFP.jpg",
+                imgShoot: "./images/Models/KMoss-MS.jpg"
+            },
+            {
+                name: "kristin drab ",
+                imgProfile: "./images/Models/KDrab-PFP.jpg",
+                imgShoot: "./images/Models/KDrab-MS.jpg"
+            }
         ]
 
         this.state = {
