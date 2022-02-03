@@ -18,7 +18,7 @@ class Navbar extends Component {
                     <ul>
                         <li><Link to="/women">Women</Link></li>
                         <li><Link to="/men">Men</Link></li>
-                        <li><Link to="juniors/">Juniors</Link></li>
+                        <li><Link to="/juniors">Juniors</Link></li>
                     </ul>
                     <div>
                         <a href=""> &#9776;</a>
