@@ -5,7 +5,7 @@ This project is a single-page website built with ReactJs for a fictious high-fas
 
 For this project, in addition to prioritizing a single-page archiecture, I really want to bring lazy loading into this project. The roster for these modeling agencies are always very lengthy, and it would be cool if these images loaded upon scroll to boost web page loading time.
 
-And since these modeling sites tend to be very visual and media-content heavy, I also want to introduce some sort of minifying npm package. 
+Live Site: https://zua-models.netlify.app/
 
 ## TECHNOLOGY USED
 - Adobe Creative Cloud Express: [Transparent Background](https://www.adobe.com/express/feature/image/transparent-background)   
