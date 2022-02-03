@@ -75,6 +75,17 @@ class Women extends Component {
                 imgProfile: "./images/Models/JAtilemile-PFP.jpg",
                 imgShoot: "./images/Models/JAtilemile-MS.jpg"
             }
+            ,
+            {
+                name: "jessica strother",
+                imgProfile: "./images/Models/JStrother-PFP.jpg",
+                imgShoot: "./images/Models/JStrother-MS.jpg"
+            },
+            {
+                name: "Julia Hafstrom",
+                imgProfile: "./images/Models/JHafstrom-PFP.jpg",
+                imgShoot: "./images/Models/JHafstrom-MS.jpg"
+            }
         ]
 
         this.state = {
